@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="pane" fx:id="pane" prefHeight="690.0" prefWidth="980.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+       <Pane id="boardPane" fx:id="boardPane" pickOnBounds="true" prefHeight="679.0" prefWidth="681.0">
+
+           <children>
+               <ImageView id="board" fx:id="board" fitHeight="690.0" fitWidth="680.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@../../res/monopoly-GOT-1.jpg" />
+                   </image>
+               </ImageView>
+              <ImageView id="0" fx:id="square0" fitHeight="42.0" fitWidth="41.0" layoutX="610.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="1" fx:id="square1" fitHeight="42.0" fitWidth="41.0" layoutX="537.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="2" fx:id="square2" fitHeight="42.0" fitWidth="41.0" layoutX="485.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="28" fx:id="square28" fitHeight="42.0" fitWidth="41.0" layoutX="484.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="29" fx:id="square29" fitHeight="42.0" fitWidth="41.0" layoutX="537.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="8" fx:id="square8" fitHeight="42.0" fitWidth="41.0" layoutX="156.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="9" fx:id="square9" fitHeight="42.0" fitWidth="41.0" layoutX="101.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="7" fx:id="square7" fitHeight="42.0" fitWidth="41.0" layoutX="208.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="6" fx:id="square6" fitHeight="42.0" fitWidth="41.0" layoutX="266.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="5" fx:id="square5" fitHeight="42.0" fitWidth="41.0" layoutX="319.0" layoutY="607.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="4" fx:id="square4" fitHeight="42.0" fitWidth="41.0" layoutX="376.0" layoutY="607.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="3" fx:id="square3" fitHeight="42.0" fitWidth="41.0" layoutX="427.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="10" fx:id="square10" fitHeight="42.0" fitWidth="41.0" layoutX="36.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="11" fx:id="square11" fitHeight="42.0" fitWidth="41.0" layoutX="23.0" layoutY="536.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="12" fx:id="square12" fitHeight="42.0" fitWidth="47.0" layoutX="29.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="13" fx:id="square13" fitHeight="42.0" fitWidth="47.0" layoutX="20.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="14" fx:id="square14" fitHeight="42.0" fitWidth="41.0" layoutX="23.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="15" fx:id="square15" fitHeight="42.0" fitWidth="41.0" layoutX="23.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="16" fx:id="square16" fitHeight="42.0" fitWidth="47.0" layoutX="20.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="17" fx:id="square17" fitHeight="42.0" fitWidth="47.0" layoutX="12.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="18" fx:id="square18" fitHeight="42.0" fitWidth="47.0" layoutX="20.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="19" fx:id="square19" fitHeight="42.0" fitWidth="47.0" layoutX="20.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="20" fx:id="square20" fitHeight="42.0" fitWidth="47.0" layoutX="29.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="21" fx:id="square21" fitHeight="42.0" fitWidth="41.0" layoutX="101.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="22" fx:id="square22" fitHeight="42.0" fitWidth="41.0" layoutX="156.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="23" fx:id="square23" fitHeight="42.0" fitWidth="41.0" layoutX="208.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="24" fx:id="square24" fitHeight="42.0" fitWidth="41.0" layoutX="259.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="25" fx:id="square25" fitHeight="42.0" fitWidth="41.0" layoutX="320.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="26" fx:id="square26" fitHeight="42.0" fitWidth="41.0" layoutX="376.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="27" fx:id="square27" fitHeight="42.0" fitWidth="41.0" layoutX="427.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="30" fx:id="square30" fitHeight="42.0" fitWidth="41.0" layoutX="610.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="31" fx:id="square31" fitHeight="42.0" fitWidth="41.0" layoutX="617.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="32" fx:id="square32" fitHeight="42.0" fitWidth="41.0" layoutX="617.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="33" fx:id="square33" fitHeight="42.0" fitWidth="47.0" layoutX="614.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="34" fx:id="square34" fitHeight="42.0" fitWidth="41.0" layoutX="617.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="35" fx:id="square35" fitHeight="42.0" fitWidth="41.0" layoutX="617.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="36" fx:id="square36" fitHeight="42.0" fitWidth="41.0" layoutX="617.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="37" fx:id="square37" fitHeight="42.0" fitWidth="41.0" layoutX="617.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="38" fx:id="square38" fitHeight="42.0" fitWidth="41.0" layoutX="604.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true" />
+              <ImageView id="39" fx:id="square39" fitHeight="42.0" fitWidth="47.0" layoutX="614.0" layoutY="536.0" pickOnBounds="true" preserveRatio="true" />
+             </children>
+       </Pane>
+      <ImageView id="card" fitHeight="97.0" fitWidth="163.0" layoutX="750.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/jp%20(2).jpg" />
+         </image>
+      </ImageView>
+       <ImageView id="dice1" fx:id="dice1" fitHeight="60.0" fitWidth="64.0" layoutX="741.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" />
+       <ImageView id="dice2" fx:id="dice2" fitHeight="60.0" fitWidth="64.0" layoutX="846.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+       <Button id="end" fx:id="end" layoutX="728.0" layoutY="453.0" mnemonicParsing="false" onAction="#endTurnClick" text="End Turn" textAlignment="CENTER" />
+       <Label id="textView" fx:id="textView" alignment="CENTER" layoutX="708.0" layoutY="245.0" prefHeight="50.0" prefWidth="247.0" text="TextView" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+       <Button id="sell" fx:id="sell" layoutX="803.0" layoutY="540.0" mnemonicParsing="false" onAction="#onClickSell" text="Sell Land" textAlignment="CENTER" />
+       <Button id="dice" fx:id="dice" layoutX="866.0" layoutY="453.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Roll Dice" textAlignment="CENTER" />
+      <Label id="name" fx:id="name" alignment="CENTER" layoutX="779.0" layoutY="34.0" prefHeight="27.0" prefWidth="101.0" text="Label" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label id="amt" fx:id="amt" alignment="CENTER" layoutX="808.0" layoutY="76.0" prefHeight="25.0" prefWidth="47.0" text="Label" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</Pane>
